@@ -21,6 +21,10 @@ public class ComparingStrings {
         {
             System.out.println("Wear a coat and take a shovel!");
         }
+
+        else if (answer.equals("stormy")) {
+            System.out.println("Stay inside!");
+        }
             else{
             System.out.println("Enjoy your day!");
         }
@@ -45,3 +49,4 @@ public class ComparingStrings {
         Fix the following program so it works.Note: To keep you on your feet the complete program is not shown. It's up to you to figure out the rest.
 
         Add a line to print "You should stay inside" if the response is "stormy".*/
+
